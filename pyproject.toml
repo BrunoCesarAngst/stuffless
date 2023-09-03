@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "stuffless"
+version = "0.1.0"
+description = ""
+authors = ["BrunoCesarAngst <bruno.angst@rede.ulbra.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+kivy = "^2.2.1"
+kivy-garden = "^0.1.5"
+peewee = "^3.16.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
